@@ -19,7 +19,7 @@ body {
 }
 
 .opcion_menu {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 1em; 
     font-family: "Josefin Slab", serif;
@@ -307,7 +307,7 @@ body {
 
 .testimonio {
     font-family: "Josefin Slab", serif;
-    background-color: #ffffff;
+    background-color: #414141;
     padding: 20px;
     border-radius: 10px;
     max-width: 300px;
@@ -316,7 +316,7 @@ body {
 
 .testimonio p {
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -330,7 +330,7 @@ body {
 .testimonio h4 {
     margin: 10px 0 5px;
     font-size: 1.8rem;
-    color: #000000;
+    color: #ffffff;
 }
 
 .footer {
