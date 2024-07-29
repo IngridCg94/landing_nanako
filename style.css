@@ -317,6 +317,7 @@ body {
 .testimonio p {
     font-size: 1.2rem;
     color: #000000;
+    font-weight: bold;
 }
 
 .testimonio img {
@@ -350,6 +351,7 @@ body {
     font-family: "Josefin Slab", serif;
     font-size: 1.2rem; 
     margin: 0.5rem 0;
+    font-weight: bold;
 }
 
 .social-icons img {
