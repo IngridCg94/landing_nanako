@@ -1,0 +1,1026 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fcf2f0;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%; 
+    background-color: #f55174;
+    font-family: "Josefin Slab", serif;
+}
+
+.logo_imagen {
+    height: 10rem; 
+}
+
+.opcion_menu {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1em; 
+    font-family: "Josefin Slab", serif;
+    font-size: 1.5rem;
+}
+
+.opcion_menu_2 {
+    margin: 0 0.2em; 
+    font-size: 1.9rem; 
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 0.1em;
+    border-color: #fcf2f0;
+    padding: 0.5em;
+    font-family: "Josefin Slab", serif;
+}
+
+.opcion_menu:hover {
+    border-style: dotted;
+    border-width: 0.2em;
+    border-color: #fcf2f0;
+    padding: 0.5em;
+}
+
+.opcion_menu_2:hover {
+    color: #414141;
+    border-color: #414141;
+}
+
+.menu .izquierda {
+    display: flex;
+    gap: 1em; 
+}
+
+.menu .derecha {
+    margin-left: auto;
+}
+
+.centro {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria {
+    display: flex;
+    gap: 1rem;
+    width: 90%; 
+    height: 40vh; 
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos_galeria_2, .fotos_galeria_3, .fotos_galeria_4, .fotos_galeria_5 {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-timing-function: linear;
+    transition-duration: 0.8s;
+    border-radius: 1rem;
+    flex: 1;
+}
+
+.fotos_galeria_2 {
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('postre2.jpg');
+}
+
+.fotos_galeria_3 {
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('postre3.jpg');
+}
+
+.fotos_galeria_4 {
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('postre5.jpg');
+}
+
+.fotos_galeria_5 {
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('postre6.jpg');
+}
+
+.galeria > div:hover {
+    flex: 5;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #f55174;
+    height: 60vh; 
+    
+}
+
+.panel_izquiedo {
+    display: flex;
+    gap: 1em;
+    width: 100%; 
+    height: 40vh; 
+
+}
+
+.panel_derecho {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40vh; 
+}
+
+.texto {
+    color: #ffffff;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.5rem;
+}
+
+.encabezado {
+    color: #ffffff;
+    font-family: "Josefin Slab", serif;
+    font-size: 3rem; 
+}
+
+.boton_Promocion {
+    width: 50%;
+    border-radius: 2rem;
+    padding: 1rem 0 2rem 0;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #414141;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.email {
+    border-radius: 1rem;
+    width: 50%;
+    height: 1.5rem;
+    font-family: "Josefin Slab", serif;
+    font-size: 1rem;
+    padding-left: 30px;
+}
+
+.boton_Enviar {
+    border-radius: 0.3rem;
+    width: 10rem;
+    height: 2rem;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.3rem;
+    background-color: #414141;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.catalogo {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85vh;
+    padding-top: 5rem; 
+    text-decoration: none;
+}
+
+.menu_catalogo {
+    background-color: #f55174;
+    padding: 2rem; 
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    gap: 5rem; 
+}
+
+.galeria_catalogo{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    width: 80%; 
+    height: 40vh; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.fotos_catalogo_1, .fotos_catalogo_2, .fotos_catalogo_3, .fotos_catalogo_4 {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-timing-function: linear;
+    transition-duration: 0.8s;
+    border-radius: 1rem;
+    flex: 1;
+}
+
+.fotos_catalogo_1{
+    width: 100%; 
+    height: 100%;
+    background-image: url(pastel_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotos_catalogo_2{
+    width: 100%; 
+    height: 100%; 
+    background-image: url(pastel_2.webp);
+    background-size: cover; 
+    background-position: center;
+}
+
+.fotos_catalogo_3{
+    width: 100%; 
+    height: 100%; 
+    background-image: url(pastel_3.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.fotos_catalogo_4{
+    width: 100%;
+    height: 100%; 
+    background-image: url(pastel_4.webp);
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+.icono_menu {
+    width: 2rem; /* Uso de rem para tamaño */
+}
+
+.testimonios {
+    padding: 10px 5%;
+    background-color: #f55174;
+    height: 75vh;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5rem;
+    font-family: "Josefin Slab", serif;
+}
+
+.titulo-seccion {
+    font-family: "Josefin Slab", serif;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.subtitulo-seccion {
+    font-family: "Josefin Slab", serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.testimonios-contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonio {
+    font-family: "Josefin Slab", serif;
+    background-color: #414141;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.testimonio p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+.testimonio img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.testimonio h4 {
+    margin: 10px 0 5px;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem; 
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem; 
+}
+
+.footer-content p, .footer-content a {
+    color: #000000;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.2rem; 
+    margin: 0.5rem 0;
+}
+
+.social-icons img {
+    width: 1.5rem; 
+    margin: 0 0.5rem; 
+    transition: width 0.3s ease;
+}
+
+.subscription-form input {
+    padding: 1rem; 
+    margin: 0.5rem 0; 
+    border: 1px solid #ddd;
+    border-radius: 0.5rem; 
+    width: 12rem; 
+}
+
+.subscription-form button {
+    padding: 1rem 2rem; 
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+}
+
+.social-icons a:hover img {
+    width: 2rem; 
+}
+
+@media (max-width: 992px){
+    body {
+        width: 100%;
+    }
+
+    .texto{
+        font-size: 1.3em;
+    }
+
+    .menu {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .centro, .menu .izquierda, .menu .derecha {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .derecha{
+        order: -1;
+    }
+
+    .izquierda{
+        order: 2;
+    }
+
+    .opcion_menu{
+        font-size: 2em;
+    }
+
+    .boton_Enviar, .email{
+        display: inline-block;
+        vertical-align: middle;
+        font-family: "Josefin Slab", serif;
+    }
+
+    .email{
+        height: 2em;
+        width: 40em;
+        font-family: "Josefin Slab", serif;
+        font-size: 1rem;
+    }
+
+    .boton_Enviar{
+        font-family: "Josefin Slab", serif;
+        font-size: 1.5rem;
+    }
+
+    .contenedor_input{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contenedor_input input[type="text"] {
+        margin-bottom: 0;
+        margin-right: 10px;
+        border-radius: 25px 0 0 25px;
+    }
+
+    .contenedor_input button {
+        border-radius: 0 25px 25px 0;
+        border-radius: 0.3rem;
+        width: 10rem;
+        height: 2rem;
+        font-family: "Josefin Slab", serif;
+        font-size: 1.5rem;
+        background-color: #414141;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+
+    .boton_Promocion {
+        width: 80%;
+        margin: 1rem auto;
+        text-align: center;
+        padding: 0.5em 1em 1.5em 1em;
+        font-size: 2em;
+    }
+
+    .texto {
+        text-align: left;
+        font-size: 2em;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        
+        height: auto;
+        padding: 1em;
+    }
+
+    .contacto {
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .fotos_galeria_2, .fotos_galeria_3, .fotos_galeria_4, .fotos_galeria_5 {
+        height: 15rem; /* Ajustar la altura según sea necesario */
+        width: 100%; /* Ajustar el ancho para que sea responsive */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .galeria_catalogo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .fotos_catalogo_1, .fotos_catalogo_2, .fotos_catalogo_3, .fotos_catalogo_4{
+        height: 25rem; /* Ajustar la altura según sea necesario */
+        width: 100%; /* Ajustar el ancho para que sea responsive */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .panel_derecho {
+        width: 100%;
+        text-align: center;
+        padding: 0.2rem 0rem 0.2rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel_izquierdo{
+        width: 90%;
+        text-align: center;
+        padding: 1rem 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .encabezado {
+        font-size: 4em;
+    }
+
+    .catalogo{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-top: 5rem; /* Uso de rem para padding */
+    text-decoration: none;
+    width: 100%;
+    }
+
+    .menu_catalogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.5em;
+        gap: 0.5em;
+        text-align: center;
+    }
+
+    .testimonios{
+        height: auto;
+    }
+
+    .testimonios-contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .opcion_menu_2{
+        font-size: 3em;
+    }
+
+    .icono_menu {
+        width: 5rem; /* Uso de rem para tamaño */
+    }
+    
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content a{
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .footer-content p{
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .derecha{
+        order: -1;
+    }
+
+    .izquierda{
+        order: 2;
+    }
+
+    .menu .centro, .menu .izquierda, .menu .derecha {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .email{
+        height: 2.3em;
+        width: 40em;
+        font-family: "Josefin Slab", serif;
+        font-size: 1.1em;
+    }
+
+    .boton_Enviar, .email{
+        display: inline-block;
+        vertical-align: middle; /* Alinea verticalmente ambos elementos */
+    }
+    
+    .contenedor_input{
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .contenedor_input input[type="text"] {
+        margin-bottom: 0;
+        margin-right: 10px;
+        border-radius: 25px 0 0 25px;
+        height: 18rem;
+        font-size: 10rem;
+        
+    }
+    
+    .contenedor_input button {
+        border-radius: 0 25px 25px 0;
+        margin-left: 5px; /* Para ajustar el borde del botón con el input */
+        border-radius: 0.3rem;
+        width: 10rem;
+        height: 2.6rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        background-color: #414141;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    
+
+    .boton_Promocion {
+        width: 80%;
+        margin: 1rem auto;
+        text-align: center;
+        padding: 1em 1em 2em 1em;
+    }
+
+    .texto {
+        text-align: left;
+        font-size: 2.2em;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5em;
+    }
+
+    .contacto {
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .fotos_galeria_2, .fotos_galeria_3, .fotos_galeria_4, .fotos_galeria_5 {
+        height: 17rem; /* Ajustar la altura según sea necesario */
+        width: 100%; /* Ajustar el ancho para que sea responsive */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .panel_derecho {
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel_izquierdo{
+        width: 90%;
+        text-align: center;
+        padding: 1rem 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .encabezado {
+        font-size: 4em;
+        margin-bottom: 0;
+    }
+
+    .catalogo{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    padding-top: 5rem; /* Uso de rem para padding */
+    text-decoration: none;
+    width: 100%;
+    }
+
+    .menu_catalogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.5em;
+        gap: 0.5em;
+        text-align: center;
+    }
+
+    .galeria_catalogo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .fotos_catalogo_1, .fotos_catalogo_2, .fotos_catalogo_3, .fotos_catalogo_4{
+        height: 15em; /* Ajustar la altura según sea necesario */
+        width: 100%; /* Ajustar el ancho para que sea responsive */
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .opcion_menu_2{
+        font-size: 4.3em;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content a{
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+
+    .footer-content p{
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 576px) {
+
+    body {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .derecha{
+        order: -1;
+    }
+
+    .izquierda{
+        order: 2;
+    }
+
+    .menu .centro, .menu .izquierda, .menu .derecha {
+        width: 100%;
+        font-size: 0.9em;
+        text-align: center;
+        margin: 1rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton_Enviar, .email{
+        display: inline-block;
+        vertical-align: middle; /* Alinea verticalmente ambos elementos */
+    }
+
+    .email{
+        height: 2.3em;
+        width: 25em;
+        font-family: "Josefin Slab", serif;
+        font-size: 1.1em;
+    }
+    
+    .contenedor_input{
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .contenedor_input input[type="text"] {
+        margin-bottom: 0;
+        margin-right: 10px;
+        border-radius: 25px 0 0 25px;
+        
+    }
+    
+    .contenedor_input button {
+        border-radius: 0 25px 25px 0;
+        margin-left: 5px; /* Para ajustar el borde del botón con el input */
+        border-radius: 0.3rem;
+        width: 10rem;
+        height: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        background-color: #414141;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    
+
+    .boton_Promocion {
+        width: 100%;
+        margin: 1rem auto;
+        text-align: center;
+        padding: 1em 1em 2em 1em;
+        font-size: 1.5em;
+    }
+
+    .texto {
+        margin-bottom: 3em;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5em;
+    }
+
+    .contacto {
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .catalogo{
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;
+        padding-top: 5rem; /* Uso de rem para padding */
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .menu_catalogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.5em;
+        gap: 0.5em;
+        text-align: center;
+    }
+
+    .opcion_menu_2{
+        font-size: 2.8em;
+        
+    }
+
+    .galeria_catalogo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+        height: auto;
+        padding-bottom: 1em;
+    }
+
+    .fotos_catalogo_1, .fotos_catalogo_2, .fotos_catalogo_3, .fotos_catalogo_4{
+        height: 10em; /* Ajustar la altura según sea necesario */
+        width: 100%; /* Ajustar el ancho para que sea responsive */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icono_menu{
+        width: 0.9em;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+        height: auto;
+        padding-bottom: 1em;
+    }
+
+    .fotos_galeria_2, .fotos_galeria_3, .fotos_galeria_4, .fotos_galeria_5 {
+        height: 10rem; 
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .panel_derecho {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .panel_izquierdo{
+        width: 90%;
+        text-align: center;
+        padding: 1rem 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .encabezado {
+        font-size: 2em;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .catalogo{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    padding-top: 5rem; /* Uso de rem para padding */
+    text-decoration: none;
+    width: 100%;
+    }
+
+    .menu_catalogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.5em;
+        gap: 0.5em;
+        text-align: center;
+    }
+
+    .galeria_catalogo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .fotos_catalogo_1, .fotos_catalogo_2, .fotos_catalogo_3, .fotos_catalogo_4{
+        height: 15em; /* Ajustar la altura según sea necesario */
+        width: 100%; /* Ajustar el ancho para que sea responsive */
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
