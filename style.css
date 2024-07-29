@@ -90,7 +90,7 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url('postre2.jpg');
+    background-image: url('Imagenes/postre2.jpg');
 }
 
 .fotos_galeria_3 {
@@ -98,7 +98,7 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url('postre3.jpg');
+    background-image: url('Imagenes/postre3.jpg');
 }
 
 .fotos_galeria_4 {
@@ -106,7 +106,7 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url('postre5.jpg');
+    background-image: url('Imagenes/postre5.jpg');
 }
 
 .fotos_galeria_5 {
@@ -114,7 +114,7 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url('postre6.jpg');
+    background-image: url('Imagenes/postre6.jpg');
 }
 
 .galeria > div:hover {
@@ -240,7 +240,7 @@ body {
 .fotos_catalogo_1{
     width: 100%; 
     height: 100%;
-    background-image: url(pastel_1.jpg);
+    background-image: url(Imagenes/pastel_1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -248,7 +248,7 @@ body {
 .fotos_catalogo_2{
     width: 100%; 
     height: 100%; 
-    background-image: url(pastel_2.webp);
+    background-image: url(Imagenes/pastel_2.webp);
     background-size: cover; 
     background-position: center;
 }
@@ -256,7 +256,7 @@ body {
 .fotos_catalogo_3{
     width: 100%; 
     height: 100%; 
-    background-image: url(pastel_3.jpg);
+    background-image: url(Imagenes/pastel_3.jpg);
     background-size: cover;
     background-position: center; 
 }
@@ -264,7 +264,7 @@ body {
 .fotos_catalogo_4{
     width: 100%;
     height: 100%; 
-    background-image: url(pastel_4.webp);
+    background-image: url(Imagenes/pastel_4.webp);
     background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
     background-position: center; /* Centra la imagen de fondo */
 }
