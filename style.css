@@ -746,7 +746,7 @@ body {
     .menu_catalogo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 100%;
+        width: 80%;
         justify-content: center;
         align-items: center;
         margin-right: 0.5em;
@@ -901,7 +901,7 @@ body {
     .menu_catalogo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 100%;
+        width: 8cqh;
         justify-content: center;
         align-items: center;
         margin-right: 0.5em;
