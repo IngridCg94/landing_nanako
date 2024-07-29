@@ -307,7 +307,7 @@ body {
 
 .testimonio {
     font-family: "Josefin Slab", serif;
-    background-color: #414141;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     max-width: 300px;
@@ -316,7 +316,7 @@ body {
 
 .testimonio p {
     font-size: 1.2rem;
-    color: #bbb;
+    color: #000000;
 }
 
 .testimonio img {
@@ -329,7 +329,7 @@ body {
 .testimonio h4 {
     margin: 10px 0 5px;
     font-size: 1.8rem;
-    color: #fff;
+    color: #000000;
 }
 
 .footer {
